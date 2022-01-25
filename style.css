@@ -45,6 +45,13 @@ html{
     padding: 10px;
     border-radius: 10px;
 }
+#tableu h2{
+    display: block;
+    width: fit-content;
+    font-size: 3rem;
+    position: relative;
+    color: rgb(6, 46, 6);
+}
 
 #soporte{
     border-radius: 10px;
