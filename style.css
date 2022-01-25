@@ -60,4 +60,19 @@ html{
     border-radius: 10px;
     background-color: white;
     color: orangered;
+    font-size: 1.5rem;
+}
+
+#soporte p{
+    color: black;
+    font-size: 1.5rem;
+}
+
+#icon{
+    display: flex;
+    margin: 10px;
+}
+#contact{
+    display: block;
+    margin: 10px;
 }
