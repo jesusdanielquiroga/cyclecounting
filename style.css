@@ -20,7 +20,7 @@ html{
 
 /* Hero section */
 #hero{
-    background-image: url(img/carrito.jpg);
+    background-image: url(img/tomate.jpg);
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -40,9 +40,9 @@ html{
 
 /* End hero Section */
 #tableu {
-    border-radius: 20px;
+    border-radius: 10px;
     margin: 10px 5%;
-    padding: 30px;
+    padding: 10px;
     border-radius: 10px;
 }
 
