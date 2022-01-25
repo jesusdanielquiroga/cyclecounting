@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Raleway:wght@300;400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+    font-family:'Montserrat', sans-serif ;
+    background-color: rgb(176, 179, 180);
+}
+.container{
+    min-height: 100vh;
+    width: 100%;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Hero section */
+#hero{
+    background-image: url(img/carrito.jpg);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    height: 180px;  
+    opacity: .9;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 20px 5%;
+}
+#hero h1{
+    display: block;
+    width: fit-content;
+    font-size: 4rem;
+    position: relative;
+    color: orangered;
+}
+
+/* End hero Section */
+#tableu {
+    border-radius: 20px;
+    margin: 10px 5%;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#soporte{
+    border-radius: 10px;
+    margin: 10px 5%;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: white;
+    color: orangered;
+}
