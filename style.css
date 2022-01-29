@@ -150,7 +150,7 @@ p{
     margin-bottom: 50px;
 }
 .explore-content p{
-    color: rgb(88, 87, 87);
+    color: rgb(53, 52, 52);
 }
 .explore-content .ctn{
     margin-top: 40px;
@@ -185,6 +185,19 @@ p{
 .content-col .ctn{
     margin-left: -100px;
 }
+
+.footer{
+    width: 100%;
+    min-height: 100px;
+    padding: 20px 80px;
+    margin: 0;
+    background: rgb(14, 65, 14);
+    text-align: center;
+}
+.footer p{
+    color: whitesmoke;
+    margin: 20px auto;
+}
 /*==== Mobile device===*/
 @media only screen and (max-width:850px){
     .menu-btn{
@@ -213,5 +226,8 @@ p{
     }
     .nav-links li{
         margin: 30px auto;
+    }
+    .row{
+        flex-direction: column;
     }
 }
