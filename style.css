@@ -42,13 +42,15 @@ ul{
 /*====header===*/
 header{
     width: 100vw;
-    height: 100vw;
-    background-image: url('./img/lechuga.jpg');
+    height: 106vw;
+    background-image: url('./img/tomates.jpg');
     background-position: bottom;
     background-size: cover;
     display: flex;
     align-items: flex-end;
     justify-content: center;
+    
+    
 }
 .header-content {
     margin-bottom: 150px;
