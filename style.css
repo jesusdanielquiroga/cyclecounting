@@ -7,16 +7,18 @@
     margin: 0;
     box-sizing: border-box;
 }
-a{
-    text-decoration: none;
-}
-ul{
-    list-style: none;
-}
 .active{
     color: orangered;
     text-decoration: underline;
     font-weight: bold;
+}
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 3vh;
+}
+ul{
+    list-style: none;
 }
 body , html{
     overflow-x: hidden;
@@ -262,6 +264,9 @@ img{
 img:hover {
     transform: scale(1.1);
 }
+a:hover{
+    color: orangered;
+}
 .ctn:hover {
     background: whitesmoke;
     color: orangered;
@@ -270,4 +275,32 @@ img:hover {
 li:hover {
     color: orangered;
     cursor: zoom-out;
+}
+
+
+/*====Zona Centro ===*/
+.zc {
+    background-image: url("./img/naranja.jpg");
+    width: 100vw;
+    height: 25vw;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: right; 
+    margin-top: 0;
+}
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    height: 70px;
+    align-items: center;
+    font-weight: 700;
+}
+.nav__items{
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 5px 10px;
 }
